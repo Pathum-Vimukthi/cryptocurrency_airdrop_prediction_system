@@ -5,19 +5,6 @@
 
 ---
 
-## 📋 Table of Contents
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
-- [Model Performance](#model-performance)
-- [Usage Guide](#usage-guide)
-- [Screenshots](#screenshots)
-
----
-
 ## ✨ Features
 
 ### 🛡️ Scam Detection
