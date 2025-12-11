@@ -1,0 +1,94 @@
+# ==========================================
+# Node.js  Express Backend
+# ==========================================
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+.env
+.env.local
+.env..local
+
+# ==========================================
+# Python ML Scripts
+# ==========================================
+__pycache__
+.pyc
+.pyo
+.pyd
+.pkl
+.joblib
+.h5
+.model
+
+# Virtual environments
+venv
+venv 
+.env
+.venv
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# ==========================================
+# React + Vite Frontend
+# ==========================================
+frontendnode_modules
+dist
+build
+.local
+
+# Vite cache
+frontend.vite
+.vite
+
+# ==========================================
+# Logs
+# ==========================================
+logs
+.log
+.log.
+debug.log
+error.log
+
+# ==========================================
+# OS  Editor files
+# ==========================================
+.DS_Store
+Thumbs.db
+.swp
+.swo
+.tmp
+
+# ==========================================
+# Dependency  Cache
+# ==========================================
+.cache
+.tmp
+.parcel-cache
+.pnp
+.pnp.js
+
+# ==========================================
+# Python Build  Cache
+# ==========================================
+build
+develop-eggs
+dist
+downloads
+eggs
+.eggs
+parts
+sdist
+var
+.egg-info
+.installed.cfg
+.egg
+
+# ==========================================
+# Other
+# ==========================================
+backenduploads
+backendtemp
