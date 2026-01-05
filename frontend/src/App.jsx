@@ -408,7 +408,7 @@ function App() {
               </div>
 
               {/* Investment Summary */}
-              <div className="result-card investment-summary">
+              {/* <div className="result-card investment-summary">
                 <div className="card-header">
                   <DollarSign size={24} />
                   <h3>Investment Summary</h3>
@@ -429,14 +429,14 @@ function App() {
                   <span>Value per Task:</span>
                   <strong>${prediction.investment_summary.earning_per_task.toFixed(2)}</strong>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         )}
       </div>
 
       <footer className="footer">
-        <p>Powered by XGBoost Machine Learning Models | Accuracy: 99.33%+ | R² Score: 1.0000</p>
+        <p></p>
       </footer>
     </div>
   );
