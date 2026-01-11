@@ -352,14 +352,14 @@ function App() {
                   <span>Referral Bonus:</span>
                   <strong>{prediction.reward_prediction.referral_bonus.toLocaleString()}</strong>
                 </div>
-                <div className="metric-row highlight">
+                {/* <div className="metric-row highlight">
                   <span>Total Potential:</span>
                   <strong>{prediction.reward_prediction.total_earning_potential.toLocaleString()}</strong>
                 </div>
                 <div className="metric-row">
                   <span>Earning Efficiency:</span>
                   <strong>{prediction.reward_prediction.earning_efficiency.toFixed(2)}</strong>
-                </div>
+                </div> */}
                 <div className="metric-row">
                   <span>Tasks Required:</span>
                   <strong>{prediction.reward_prediction.tasks_required}</strong>
@@ -384,7 +384,7 @@ function App() {
                   <span>ICO Price:</span>
                   <strong>${prediction.price_prediction.ico_price_usd.toFixed(6)}</strong>
                 </div>
-                <div className="metric-row">
+                {/* <div className="metric-row">
                   <span>Price Change:</span>
                   <strong className={prediction.price_prediction.price_change_percent >= 0 ? 'positive' : 'negative'}>
                     {prediction.price_prediction.price_change_percent >= 0 ? '+' : ''}
@@ -404,7 +404,7 @@ function App() {
                   <strong className={prediction.price_prediction.price_trend === 'Bullish' ? 'positive' : 'negative'}>
                     {prediction.price_prediction.price_trend}
                   </strong>
-                </div>
+                </div> */}
               </div>
 
               {/* Investment Summary */}
